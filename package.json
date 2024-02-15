@@ -1,6 +1,6 @@
 {
-  "name": "basscss-sass",
-  "version": "4.0.0",
+  "name": "@rvshare/basscss-sass",
+  "version": "4.0.1",
   "description": "Transpiled Basscss Sass partials",
   "scripts": {
     "start": "node build",
@@ -24,7 +24,7 @@
     "colors.css": "^2.3.0",
     "css-scss": "^0.1.0",
     "mocha": "^2.4.5",
-    "node-sass": "^3.4.2",
+    "node-sass": "^4.14.1",
     "postcss": "^5.0.15",
     "postcss-import": "^8.0.2"
   },
@@ -34,10 +34,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/basscss/basscss-sass.git"
+    "url": "https://github.com/rvshare/basscss-sass.git"
   },
   "bugs": {
-    "url": "https://github.com/basscss/basscss-sass/issues"
+    "url": "https://github.com/rvshare/basscss-sass/issues"
   },
-  "homepage": "https://github.com/basscss/basscss-sass"
+  "homepage": "https://github.com/rvshare/basscss-sass"
 }

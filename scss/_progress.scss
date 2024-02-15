@@ -13,7 +13,7 @@ $darken-2: rgba(0, 0, 0, .125) !default;
 .progress {
   display: block;
   width: 100%;
-  height: ( $form-field-height / 4 );
+  height: ( $form-field-height * 0.25 );
   margin: $form-field-padding-y 0;
   overflow: hidden;
   background-color: $darken-2;

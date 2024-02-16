@@ -14,7 +14,10 @@
     "sass",
     "scss"
   ],
-  "author": "Brent Jackson",
+  "author": [
+    "Brent Jackson",
+    "RVshare"
+  ],
   "license": "MIT",
   "dependencies": {
     "basscss": "^8.0.0",

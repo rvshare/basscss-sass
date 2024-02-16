@@ -9,15 +9,25 @@ Basscss is written in standard, spec-compliant CSS, using some new features like
 
 If you have any choice in the matter, I highly recommend using [PostCSS](https://github.com/postcss/postcss) instead of Sass.
 
+## Deprecation Notice
+
+The original repo is no longer maintained.
+RVshare forked this repository to provide a version of Basscss that doesnt use the slash division operator. The slash division operator is not supported in the latest versions of node-sass. [Read more here](https://sass-lang.com/documentation/breaking-changes/slash-div/)
 
 ## Getting Started
 
 ```bash
-npm install basscss-sass
+npm install @rvshare/basscss-sass^4.0.1
 ```
 
-```bash
-bower install basscss-sass
+`package.json`:
+
+```json
+{
+  "dependencies": {
+    "@rvshare/basscss-sass": "^4.0.1"
+  }
+}
 ```
 
 ## Sass Tips
@@ -28,7 +38,6 @@ Using Sass as a preprocessor can cause numerous issues when working on large sca
 - **Avoid Mixins** Mixins lead to unnecessary complexity, are generally poorly understood, often lead to code bloat, and do not align with Basscss's design principles.
 - **Avoid Nesting Selectors** To maintain the composability of Basscss, avoid nesting selectors as much as possible.
 
-
 ## Contributing
 
 **The scss files in this repository are not source files.**
@@ -37,9 +46,8 @@ They are transpiled from their respective CSS modules using the
 
 Do **not** edit the scss files in this repository.
 
-See <CONTRIBUTING.md> for more.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for more.
 
 ---
 
 [MIT License](LICENSE.md)
-

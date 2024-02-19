@@ -1,8 +1,9 @@
 {
   "name": "basscss-sass",
-  "homepage": "https://github.com/basscss/basscss-sass",
+  "homepage": "https://github.com/rvshare/basscss-sass",
   "authors": [
-    "Brent Jackson <jacksonblack@gmail.com>"
+    "Brent Jackson <jacksonblack@gmail.com>",
+    "RVshare"
   ],
   "description": "Transpiled Basscss Sass partials",
   "main": "scss/basscss.scss",

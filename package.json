@@ -1,6 +1,6 @@
 {
   "name": "@rvshare/basscss-sass",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Transpiled Basscss Sass partials",
   "scripts": {
     "start": "node build",
